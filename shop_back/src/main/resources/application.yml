@@ -1,0 +1,14 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: shop_back
+  registry:
+    address: zookeeper://10.20.152.87:2181
+  consumer:
+    check: false
+    timeout: 1000
+spring:
+  thymeleaf:
+    mode: HTM5
+    cache: false
